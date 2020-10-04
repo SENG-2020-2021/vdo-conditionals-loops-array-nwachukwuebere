@@ -1,15 +1,48 @@
-# variables-datatypes-operators
-Assignment to test students on their knowledge of variables, dataTypes and operators in Java
+class Main {
+  public static void main(String[] args) {
+   // kindly use appropriate data types for your declaration
+   
+   //declare an array variable and assign the days of the month debtor defaulted,
+   byte daysofthemonthdebtordefaulted [] = { 1, 2, 3, 4, 5, 6, 7};
+   // declare variables of amount the debtor is to pay per day, and amount the debtor paid and assign values to them
+   // declare all the variables needed for your calculations
+       float amountdebtorpayperday = 500f;
+       float amountpaid = 1700f;
+   
+   
+   // declare all the variables needed for your calculations 
+   float totalamount = 0f;
+   
+   // calculate and print the amount the debtor is to pay using for each loop
+  
+   float totalamount = 0f;
+  
+   for(byte 1; daysofthemonthdebtordefaulted ) {
+   }
+   totalamount += amountdebtorpayperday;
+  system.out.printin("total amount the debtor is to pay is #");
+  s, print the y for that day 
+   byte daysdebtorpaidfor =(byte) amount paid/(byte)amountdebtorpayperday;
+   system.out.printin("the debtor paid for " + daysdebtorpaidfor + "days")
+    
+   // calculate the days the debtor paid for and print the days in which was paid for starting from the left to the right of the array. and also check if there was a day the debtor did not pay the complete amount for the day. if yes, print the day and the amount left to pay for that d
 
-## Assignment description
-You have been employed as a developer in a micro finance back who give loans, in which their debtors pay daily to return the loans. 
-Challenges often faced by the banks are to:
-- [ ] sum up the amount of the previous days the individual as defaulted
-- [ ] calculate how many days the debtor paid for based on the amount paid and what days are they
-- [ ] calculate the amount the debtor paid for but the day was not captured in the above challenge because the amount was not up to the amount payable for day and what the day was  
-- [ ] calculate the amount the debtor is left to pay
-- [ ] calculate how many days the debtor has not completely payed for and state the days
+byte daysdebtorpaidfor =(byte)(amountpaid/amountdebtorpayperday);
+system.out.printin(" the debtor paid for" + days the debtor paid for + "days" );
 
-Kindly develop a program template to solve the challenges above.
+for(int 1=0; i<actualElement; 1++) {
+  
+  if(temp>=amountdebtorpayperday) {
+   temp = temp -amountpayperday;
+   daysdebtorpayfor++;
+   
+  }
+  else if(temp<amountdebtorpayperday) {
+    break;
+  }
+}
 
-### Kindly note that you will be submitting your assignment on or before 27/09/2020
+for int 1=0; i<daysdebtorpaidfor;i++{
+  
+} 
+}
